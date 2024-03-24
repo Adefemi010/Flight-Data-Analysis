@@ -24,6 +24,8 @@ FROM (
 ) AS ticket_prices
 GROUP BY 
     ticket_price;
+    ![QUESTION 1](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/a03b0342-65c9-4a84-b431-c0e011397d6f)
+
 
 
 ## QUESTION 2
@@ -46,6 +48,9 @@ FROM
     flights
 GROUP BY 
     season;
+![QUESTION 2](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/af255b04-d1ec-4ccc-a6a2-8f8da16ba9c4)
+
+    
 
 ## QUESTION  3
 How many people choose seats in the category
@@ -63,6 +68,8 @@ INNER JOIN
     seats AS s ON s.seat_no = b.seat_no
 GROUP BY 
     fare_conditions;
+![QUESTION 3](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/427025c6-8c8e-40bb-b2f0-03e6b72c69a3)
+
 
 ## QUESTION 4
 Which seat has been chosen most frequently. Making sure all seats are included even if the have never been booked.
@@ -79,6 +86,8 @@ GROUP BY
     S.SEAT_NO
 ORDER BY 
     boarding_pass_count DESC;
+![QUESTION 4](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/94a95606-60ce-48db-93d7-d3c3a8bbc649)
+
 
 ## QUESTION 5
 Find out which line of seat has been chosen most frequently
@@ -96,6 +105,9 @@ GROUP BY
 ORDER BY 
     boarding_pass_count DESC;
 
+    ![QUESTION 5](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/3b9317e9-d231-40a2-81e5-ccbc612cb9a7)
+
+
 ## QUESTION 6
 Which passenger (passenger_name) has spent most amount in their bookings (total_amount)?
 
@@ -111,6 +123,9 @@ GROUP BY
     passenger_name
 ORDER BY 
     total_spent DESC;
+
+    ![QUESTION 6](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/b71785e9-69b0-44a4-8d6a-49756e538b77)
+
 
 ## QUESTION 7
 Which fare_condition has ALEKSANDR IVANOV used the most?
@@ -129,6 +144,8 @@ WHERE
     passenger_name = 'ALEKSANDR IVANOV'
 GROUP BY 
     fare_conditions, passenger_name;
+
+![QUESTION 7](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/424be9bc-de41-4e31-9b83-ed9c02530faf)
 
 
 
