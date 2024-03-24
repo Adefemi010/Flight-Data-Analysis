@@ -104,8 +104,9 @@ GROUP BY
     RIGHT ( S.SEAT_NO, 1)
 ORDER BY 
     boarding_pass_count DESC;
+![QUESTION 5](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/498816a1-726a-4485-ab02-27945d646cfa)
 
-    ![QUESTION 5](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/3b9317e9-d231-40a2-81e5-ccbc612cb9a7)
+
 
 
 ## QUESTION 6
@@ -124,7 +125,8 @@ GROUP BY
 ORDER BY 
     total_spent DESC;
 
-    ![QUESTION 6](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/b71785e9-69b0-44a4-8d6a-49756e538b77)
+![QUESTION 6](https://github.com/Adefemi010/Flight-Data-Analysis/assets/149597242/d4b216c9-26b1-495b-a531-13d7b225126c)
+
 
 
 ## QUESTION 7
